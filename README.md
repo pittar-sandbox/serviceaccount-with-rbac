@@ -8,6 +8,10 @@ Understanding `ServiceAccount`s in OpenShift: [Service Account docs](https://doc
 
 This step creates a test namespace, a new `ServiceAccount`, a `RoleBinding` and a `Secret` that will generate a token for the service account.
 
+```
+oc apply -k gitops
+```
+
 # Confirm the new Service Account exists
 
 ```
